@@ -1,0 +1,48 @@
+.card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0%;
+}
+
+.typeahead-search {
+    margin: 0 30px 0 10px;
+    background-color: #3a4062 !important;
+    border-bottom: 1px solid #fff !important;
+}
+
+.toggle-custom {
+    padding: 5px !important;
+    /* background-color: #292e44; */
+}
+
+.toggle-custom button {
+    text-transform: lowercase;
+}
+
+.toggle-custom:active {
+    background-color: #d02e73;
+}
+
+.card-bg-light {
+    background-color: #3a4062;
+}
+
+.card-bg-dark {
+    background-color: #30344f;
+}
+
+.card-monitor .card {
+    margin: 3px 0;
+}
+
+.card-small {
+    font-size: 12px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-analytics .card {
+    margin: 0 3px;
+}
